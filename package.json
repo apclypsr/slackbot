@@ -22,8 +22,13 @@
     "htmlparser": "1.7.7",
     "cheerio": "0.18.0",
     "chess": "0.2.5",
+    "jsdom": "1.2.1",
+    "nodepie": "0.6.5",
     "scraper": "0.0.9",
-    "soupselect": "0.2.0"
+    "soupselect": "0.2.0",
+    "underscore": "1.7.0",
+    "underscore.string": "2.3.3",
+    "wolfram": "0.3.0"
   },
   "engines": {
     "node": "0.10.x"
