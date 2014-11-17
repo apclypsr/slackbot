@@ -28,6 +28,7 @@
     "soupselect": "0.2.0",
     "underscore": "1.7.0",
     "underscore.string": "2.3.3",
+    "util": "0.10.3",
     "wolfram": "0.3.0"
   },
   "engines": {
