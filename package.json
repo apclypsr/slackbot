@@ -20,6 +20,7 @@
     "hubot-rules": "^0.1.0",
     "hubot-scripts": "^2.5.16",
     "hubot-slack": "^2.2.0",
+    "hubot-tell": "*",
     "hubot-youtube": "^0.1.2",
     "jsdom": "1.2.1",
     "nodepie": "0.6.5",
@@ -29,6 +30,7 @@
     "underscore.string": "2.3.3",
     "util": "0.10.3",
     "wolfram": "0.3.0",
+    "xml2js": "^0.4.4",
     "yelp": "^0.1.1"
   },
   "engines": {

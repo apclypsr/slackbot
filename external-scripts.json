@@ -10,5 +10,6 @@
   "hubot-redis-brain",
   "hubot-qr",
   "hubot-rules",
+  "hubot-tell",
   "hubot-youtube"
 ]
