@@ -7,8 +7,9 @@
   "hubot-google-images",
   "hubot-google-translate",
   "hubot-maps",
-  "hubot-redis-brain",
+  "hubot-plusplus",
   "hubot-qr",
+  "hubot-redis-brain",
   "hubot-rules",
   "hubot-tell",
   "hubot-youtube"
