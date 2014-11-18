@@ -5,8 +5,6 @@
   "author": "Ali Anari <ali@anari.me>",
   "description": "A simple helpful robot for your Company",
   "dependencies": {
-    "cheerio": "0.18.0",
-    "chess": "0.2.5",
     "htmlparser": "1.7.7",
     "hubot": "^2.9.3",
     "hubot-darksky": "^1.0.2",
