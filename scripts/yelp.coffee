@@ -48,7 +48,7 @@ token_secret = process.env.HUBOT_YELP_TOKEN_SECRET
 
 # Default search parameters
 start_address = process.env.HUBOT_YELP_SEARCH_ADDRESS or "Palo Alto"
-radius = process.env.HUBOT_YELP_SEARCH_RADIUS or 600
+radius = process.env.HUBOT_YELP_SEARCH_RADIUS or 1200
 sort = process.env.HUBOT_YELP_SORT or 0
 default_suggestion = process.env.HUBOT_YELP_DEFAULT_SUGGESTION or "Chipotle"
 
