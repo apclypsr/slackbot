@@ -50,7 +50,7 @@ token_secret = process.env.HUBOT_YELP_TOKEN_SECRET
 start_address = process.env.HUBOT_YELP_SEARCH_ADDRESS or "Palo Alto"
 radius = process.env.HUBOT_YELP_SEARCH_RADIUS or 1200
 sort = process.env.HUBOT_YELP_SORT or 0
-default_suggestion = process.env.HUBOT_YELP_DEFAULT_SUGGESTION or "Chipotle"
+default_suggestion = process.env.HUBOT_YELP_DEFAULT_SUGGESTION or "Eating Pussy"
 
 trim_re = /^\s+|\s+$|[\.!\?]+$/g
 
@@ -72,7 +72,7 @@ lunchMe = (msg, query, random = true) ->
 
   # Perform the search
   #msg.send("Looking for #{query} around #{location}...")
-  yelp.search category_filter: "restaurants", term: query, radius_filter: radius, sort: sort, limit: 20, location: location, (error, data) ->
+  yelp.search term: query, radius_filter: radius, sort: sort, limit: 40, location: location, (error, data) ->
     if error != null
       return msg.send "There was an error searching for #{query}. Maybe try #{default_suggestion}?"
 
