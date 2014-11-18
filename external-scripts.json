@@ -6,11 +6,9 @@
   "hubot-heroku-keepalive",
   "hubot-google-images",
   "hubot-google-translate",
-  "hubot-pugme",
   "hubot-maps",
   "hubot-redis-brain",
   "hubot-qr",
   "hubot-rules",
-  "hubot-shipit",
   "hubot-youtube"
 ]
