@@ -28,7 +28,8 @@
     "underscore": "1.7.0",
     "underscore.string": "2.3.3",
     "util": "0.10.3",
-    "wolfram": "0.3.0"
+    "wolfram": "0.3.0",
+    "yelp": "^0.1.1"
   },
   "engines": {
     "node": "0.10.x"
